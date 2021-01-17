@@ -2,25 +2,46 @@
 <html>
 
 <head>
-    <title>About NCT</title>
+    <title>MUSIC</title>
     <meta charset = "utf-8">
+    <style>
+        #grid3
+        {
+            display:grid;
+            grid-template-columns: 200px 1fr;
+        }
+        #musics
+        {
+            display:grid;
+            grid-template-columns: 600px 600px;
+            padding-left: 20px;
+        }
+    </style>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
 
 <body>
     <a href = "index.html"><h1>NCT</h1></a>
-    <br>
-    <ol>
-        <li><a href="1.html"><h2>information</h2></a></li>
-        <li><a href="2.html"><h2>members</h2></a></li>
-        <li><a href ="4.html"><h2>unit</h2></a></li>
-        <li><a href="3.html"><h2>music</h2></a></li>
-    </ol>
-    <br><br>
-    <p>
-        <h4>nct u / 90's love</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/A5H8zBb3iao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
+    
+    <div id="grid3">
+        <ol>
+            <li><a href="1.html"><h2>information</h2></a></li>
+            <li><a href="2.html"><h2>members</h2></a></li>
+            <li><a href ="4.html"><h2>unit</h2></a></li>
+            <li><a href="3.html" style = "color:red; text-decoration:underline"><h2>music</h2></a></li>
+        </ol>
+        <div id="musics">
+            <div style = "padding-right: 10px">
+                <h4 style="color:blue">nct u / 90's love</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A5H8zBb3iao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h4 style="color:blue">nct u / work it</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Un7choIyl_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 
 </body>
 
